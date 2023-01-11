@@ -9,10 +9,10 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
-#btnDelete {
-    display: none;
+li button {
+    visibility: hidden;
 }
 
-#listaDelete:hover #btnDelete {
-    display: block;
+li:hover button {
+    visibility: visible;
 }
