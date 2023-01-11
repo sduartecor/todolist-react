@@ -27,7 +27,7 @@ const Home = () => {
 
 	return (
 		<div>
-			<h1 className="text-secondary fw-light text-center fs-1">todos</h1>
+			<h1 className="text-secondary fw-light text-center mt-3" style={{fontSize: "80px"}}>todos</h1>
 			<div className="container d-flex justify-content-center">
 
 			<ul class="list-group list-group-flush shadow-lg bg-body-tertiary rounded w-50 rounded-0  fw-light">
