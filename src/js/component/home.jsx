@@ -16,7 +16,6 @@ const Home = () => {
 				alert("Ingresa una tarea")
 			} else{
 				setLista([...lista, tarea]); 
-				console.log(lista);
 				setTarea("");
 			}
 		}
