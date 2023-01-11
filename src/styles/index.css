@@ -9,3 +9,10 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+#btnDelete {
+    display: none;
+}
+
+#listaDelete:hover #btnDelete {
+    display: block;
+}
