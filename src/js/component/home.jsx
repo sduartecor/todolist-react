@@ -44,7 +44,7 @@ const Home = () => {
 	<input className="form-control fs-5 fw-light rounded-0 border border-0 px-3" type="text" placeholder="What needs to be done?" aria-label="Disabled input example"  value={tarea} onChange={(e) => setTarea(e.target.value)} onKeyDown={addTarea} required/>
 	</li>
 
-  {lista.map((tarea, id) =>  <li className="list-group-item fs-5 px-5" id="listaDelete"  key={id}>{tarea} <button type="button" className="btn btn-black border-0 float-end" id="btnDelete"  onClick={() => removeTarea(id)} >X</button> </li>  )}
+  {lista.map((tarea, id) =>  <li  className="list-group-item fs-5 px-5" id="listaDelete"  key={id}>{tarea} <button type="button" className="btn-close border-0 float-end" id="btnDelete"  onClick={() => removeTarea(id)}></button> </li>  )}
 
 
   <li className={"list-group-item disabled fs-5 px-5 " + mensaje} aria-disabled="true">No hay tareas, añadir tareas</li>
