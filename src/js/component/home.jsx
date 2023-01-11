@@ -47,7 +47,7 @@ const Home = () => {
   {lista.map((tarea, id) =>  <li  className="list-group-item fs-5 px-5" id="listaDelete"  key={id}>{tarea} <button type="button" className="btn-close border-0 float-end" id="btnDelete"  onClick={() => removeTarea(id)}></button> </li>  )}
 
 
-  <li className={"list-group-item disabled fs-5 px-5 " + mensaje} aria-disabled="true">No hay tareas, añadir tareas</li>
+  <li className={"list-group-item disabled fs-5 px-5 " + mensaje} aria-disabled="true">No tasks, add a task</li>
   <li className="list-group-item disabled" aria-disabled="true">{lista.length} item left</li>
 </ul>
 			
